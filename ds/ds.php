@@ -2332,9 +2332,9 @@ namespace Ds;
         /**
          * Returns a shallow copy of the collection.
          * @link https://www.php.net/manual/en/ds-queue.copy.php
-         * @return Stack
+         * @return Queue
          */
-        public function copy(): Stack {}
+        public function copy(): Queue {}
 
         /**
          * Returns whether the collection is empty.
